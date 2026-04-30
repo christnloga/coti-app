@@ -1,0 +1,92 @@
+.jumbotron-holder:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #212529;
+	width: 100%;
+	height: 150px;
+}
+
+@media (min-width: 992px) {
+	.jumbotron-holder:before {
+	  height: 350px!important
+	}
+}
+
+.jumbotron-holder .card {
+	height: 155px!important
+}
+
+@media (min-width: 992px) {
+	.jumbotron-holder .card {
+	  height: 450px!important
+	}
+}
+
+.item-card {
+	border-radius: 5px;
+	height: 400px;
+	width: 100%;
+	background: #ffff;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+
+.item-card:hover {
+	transform: scale(1.01);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	transition: all 0.5s ease;
+}
+
+.item-card .item-image {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+	height: 310px;
+	width: 100%;
+	background: #3b1b2b
+}
+
+.item-card .item-image .overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 1;
+	filter: opacity(0);
+	transition: all 0.5s ease;
+}
+
+.item-card .item-image .overlay i {
+	font-size: 38px;
+}
+
+.item-card:hover .item-image .overlay {
+	cursor: pointer;
+	filter: opacity(1);
+	transition: all 0.5s ease;
+}
+
+.item-card .item-image img {
+	height: 100%;
+	transition: all 0.8 ease;
+}
+
+.item-card:hover .item-image img {
+	transform: scale(1.02);
+	transition: all 2s ease;
+}
+
+.item-description {
+	overflow: hidden;
+}

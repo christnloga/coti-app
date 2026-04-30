@@ -1,0 +1,74 @@
+@import url("topbar.css");
+@import url("navbar.css");
+
+body, html {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100%;
+    background: #f4f7fb;
+  }
+
+:root {
+  --altechs-blue: #00c3b7!important;
+  --altechs-green: #009431;
+  --blue-green-gradient: linear-gradient(167deg, #00c3b7 0%, #8acd00 100%);
+  --blue-gold-gradient: linear-gradient(167deg, #2B2613 0%, #001E3F 100%);
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav > .nav-item > .nav-link.active {
+  margin-right: .5rem;
+  margin-left: .5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: .375rem;
+  background: rgba(255, 255, 255, 0.213)!important;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.193);
+  color: #fff!important;
+}
+
+ .navbar-vertical.navbar-expand-xs .navbar-nav > .nav-item > .nav-link:hover {
+  margin-right: .5rem;
+  margin-left: .5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: .375rem;
+  background: rgba(255, 255, 255, 0.137);
+  color: #fff!important;
+  transition: all 0.5s ease;
+}
+
+.item-card {
+  margin-bottom: 20px;
+}
+
+.delete_item {
+  cursor: pointer;
+}
+
+.profile-photo {
+  position: relative;
+}
+
+.profile-photo .overlay {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	z-index: 1;
+	filter: opacity(0);
+	transition: all 0.5s ease;
+}
+
+.profile-photo:hover .overlay {
+	background: rgba(0,0,0,0.4);
+	filter: opacity(1);
+	transition: all 0.5s ease;
+}
+

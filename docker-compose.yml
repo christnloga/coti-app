@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./init-db:/docker-entrypoint-initdb.d
+      - ./src:/var/www/html
+    links:
+      - db
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: coti_db
+      MYSQL_ROOT_PASSWORD: 13117531
+    ports:
+      - "3306:3306"

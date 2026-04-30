@@ -1,0 +1,87 @@
+.topBar {
+    background: var(--altechs-blue);
+    height: 30px!important;
+}
+
+@media (max-width: 992px) {
+  .topBar {
+      display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .topBar {
+      padding-top: 0;
+      padding-bottom: 0;
+      -webkit-transition: padding-top .3s,padding-bottom .3s;
+      transition: padding-top .3s,padding-bottom .3s;
+      border: none;
+      background-color: var(--altechs-blue);
+  }
+} 
+
+@media (min-width: 992px) {
+  .topBar.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #ffff;
+  }
+}
+
+@media (min-width: 992px) {
+  .topBar .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+}
+
+@media (min-width: 992px) {
+  .topBar.navbar-shrink .navbar-brand {
+    padding: 8px 0!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .topBar .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .topBar .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 500;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: var(--dolly-pink);
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  }
+}
+
+.topBar .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  padding: .75em;
+  letter-spacing: 1px;
+  color: var(--dolly-pink);
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+.topBar.navbar-shrink .navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  padding: .75em;
+  letter-spacing: 1px;
+  color: var(--dolly-pink);
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+.topBar .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  background-color: #fff;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
