@@ -1,0 +1,4 @@
+.env
+init-db/
+*.sql
+.DS_Store

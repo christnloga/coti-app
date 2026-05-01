@@ -19,3 +19,10 @@ services:
       MYSQL_ROOT_PASSWORD: 13117531
     ports:
       - "3306:3306"
+    volumes:
+      - coti-db-data:/var/lib/mysql
+    networks:
+      - coolify
+
+volumes:
+  coti-db-data:
