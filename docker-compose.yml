@@ -6,7 +6,6 @@ services:
     ports:
       - "80"
     volumes:
-      - ./init-db:/docker-entrypoint-initdb.d
       - ./src:/var/www/html
       - coti-uploads:/var/www/html/assets/images/profile
     links:
