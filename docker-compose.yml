@@ -4,7 +4,7 @@ services:
   app:
     build: .
     ports:
-      - "8080:80"
+      - "80"
     volumes:
       - ./init-db:/docker-entrypoint-initdb.d
       - ./src:/var/www/html
@@ -28,7 +28,3 @@ services:
 volumes:
   coti-db-data:
   coti-uploads:
-
-networks:
-  coolify:
-    external: true
