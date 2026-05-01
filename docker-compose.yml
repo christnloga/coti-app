@@ -8,6 +8,7 @@ services:
     volumes:
       - ./init-db:/docker-entrypoint-initdb.d
       - ./src:/var/www/html
+      - coti-uploads:/var/www/html/assets/images/profile
     links:
       - db
 
@@ -26,3 +27,8 @@ services:
 
 volumes:
   coti-db-data:
+  coti-uploads:
+
+networks:
+  coolify:
+    external: true
