@@ -7,19 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Favicon -->
-  <link rel="icon" href="<?php echo base_url(); ?>assets\icons\MATUIC-icon.png" type="image/png" />
+  <link rel="icon" href="<?php echo base_url(); ?>assets/icons/MATUIC-icon.png" type="image/png" />
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   <!-- Icons -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/vendor/nucleo/css/nucleo.css" type="text/css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\mdi\css\materialdesignicons.min.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/mdi/css/materialdesignicons.min.css" />
   <!-- Page plugins -->
   <!-- Argon CSS -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/argon.css?v=1.2.0" type="text/css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/admin/css/croppie.css" type="text/css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\css\animate.min.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\css\main.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/animate.min.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" />
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.22/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/sl-1.3.1/datatables.min.css" />
 
   <!-- <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" media="screen,projection" />

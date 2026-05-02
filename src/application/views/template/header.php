@@ -13,10 +13,10 @@ $uri2 = $this->uri->segment(2);
   <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/mdb.min.css"/>
   <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/lightslider.min.css"/>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\mdi\css\materialdesignicons.min.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\css\main.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\css\animate.min.css" />
-  <link rel="icon" href="<?php echo base_url(); ?>assets\Icons\Logo-minimal-sm.png" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/animate.min.css" />
+  <link rel="icon" href="<?php echo base_url(); ?>assets/Icons/Logo-minimal-sm.png" />
 
   <title>
     <?= $title; ?> | ALTECHS ING
@@ -30,7 +30,7 @@ $uri2 = $this->uri->segment(2);
   <nav class="navbar navbar-expand-lg mainNav fixed-top" id="mainNav" style="box-shadow:none;">
 
     <div class="container">
-      <a href="<?php echo base_url() ?>" class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url(); ?>assets\images\logo\Logo-minimal-sm.png" style="max-width: 40px;" alt="">
+      <a href="<?php echo base_url() ?>" class="navbar-brand js-scroll-trigger" href="#page-top"><img src="<?php echo base_url(); ?>assets/images/logo/Logo-minimal-sm.png" style="max-width: 40px;" alt="">
         <span class="text-white" style="font-size: 20px;">ALTECHS ING</span>
       </a>
       <button class="navbar-toggler navbar-toggler-right collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">    

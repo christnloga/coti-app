@@ -6,7 +6,6 @@ services:
     ports:
       - "80"
     volumes:
-      - .:/var/www/html
       - coti-uploads:/var/www/html/assets/images/profile
     links:
       - db

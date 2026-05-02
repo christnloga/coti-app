@@ -13,10 +13,10 @@ $uri2 = $this->uri->segment(2);
   <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/mdb.min.css"/>
   <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/lightslider.min.css"/>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fontawesome/css/all.min.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\mdi\css\materialdesignicons.min.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\css\main.css" />
-  <link rel="stylesheet" href="<?php echo base_url(); ?>assets\css\animate.min.css" />
-  <link rel="icon" href="<?php echo base_url(); ?>assets\Icons\logo-minimal.png" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/animate.min.css" />
+  <link rel="icon" href="<?php echo base_url(); ?>assets/Icons/logo-minimal.png" />
 
   <title>
     <?= $Title; ?> | Altechs Engineering

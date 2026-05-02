@@ -14,7 +14,7 @@
 
       <!-- Grid column -->
       <div class="col-lg-3 col-xl-3 mx-auto text-center mb-md-5">
-        <img class="" src="<?php echo base_url(); ?>assets\images\logo\Logo-minimal-sm.png" style="max-height: 150px;" alt="">
+        <img class="" src="<?php echo base_url(); ?>assets/images/logo/Logo-minimal-sm.png" style="max-height: 150px;" alt="">
         <h5 class="text-white text-uppercase font-weight-bold mt-3">Altechs Engineering Sarl</h5>
         <p>For Africa's Growth</p>
       </div>

@@ -49,7 +49,7 @@ class Post_model extends CI_Model
 	{
 		$image_file_name = $this->db->select('post_image')->get_where('posts', array('post_id' => $id))->row()->post_image;
 		$cwd = getcwd(); // save the current working directory
-		$image_file_path = $cwd . "\\assets\\images\\posts\\";
+		$image_file_path = $cwd . "/assets/images/posts/";
 		chdir($image_file_path);
 		unlink($image_file_name);
 		chdir($cwd); // Restore the previous working directory
@@ -64,9 +64,9 @@ class Post_model extends CI_Model
 
 	public function delete_post2($id)
 	{
-		$image_file_name = $this->db->select('post_image')->get_where('posts', array('post_id' => $post_id))->row()->post_image;
+		$image_file_name = $this->db->select('post_image')->get_where('posts', array('post_id' => $id))->row()->post_image;
 		$cwd = getcwd(); // save the current working directory
-		$image_file_path = $cwd . "\\assets\\images\\posts\\";
+		$image_file_path = $cwd . "/assets/images/posts/";
 		chdir($image_file_path);
 		unlink($image_file_name);
 		chdir($cwd); // Restore the previous working directory
