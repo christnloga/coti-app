@@ -11,12 +11,12 @@
 	<div class="row">
 		<div class="col-lg-6">
 			<div class="row mb-3">
-				<div class="col-8">
+				<div class="col-12 col-md-8 mb-2 mb-md-0">
 					<div class="pl-3" style="border-left: 3px solid #11cdef;">
 						<h2 class="mb-0 text-info">Sessions</h2>
 					</div>
 				</div>
-				<div class="col-4 d-none d-md-block text-right">
+				<div class="col-12 col-md-4 text-left text-md-right">
 					<a href="#" class="btn btn-sm btn-outline-default shadow-none new_session" data-toggle="modal" data-target="#newSessionModal">
 						<i class="fa fa-plus mr-2"></i>Nouvelle session
 					</a>

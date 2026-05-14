@@ -3,10 +3,10 @@
 <!-- Page content -->
 <div class="container-fluid mt-3">
     <div class="row mb-5">
-        <div class="col-8">
+        <div class="col-12 col-md-8 mb-2 mb-md-0">
             <h2 class="text-uppercase mb-0">Liste des Caisses</h2>
         </div>
-        <div class="col-4 d-none d-md-block text-right">
+        <div class="col-12 col-md-4 text-left text-md-right">
             <a href="#" class="btn btn-default new_caisse" id="new_caisse">
                 <i class="fa fa-plus"></i> Ajouter une caisse
             </a>

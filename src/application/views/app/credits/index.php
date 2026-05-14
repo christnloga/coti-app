@@ -4,10 +4,10 @@
 
 <section class="py-4 px-4">
     <div class="row mb-3">
-        <div class="col-md-4">
+        <div class="col-12 col-md-4 mb-2 mb-md-0">
             <h2 class="text-uppercase mb-0">Crédit</h2>
         </div>
-        <div class="col-md-4 d-none d-md-block text-right">
+        <div class="col-12 col-md-8 text-left text-md-right">
             <a href="#" class="btn btn-outline-default btn-sm new_caisse" id="refillWallet" data-toggle="modal" data-target="#modalRefillWallet">
                 <i class="fa fa-plus"></i> Ravitailler
             </a>

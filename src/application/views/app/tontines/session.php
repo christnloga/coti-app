@@ -36,12 +36,12 @@
 			<div class="tab-content pt-3 px-3" id="myTabContent">
 				<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 					<div class="row mb-3">
-						<div class="col-8">
+						<div class="col-12 col-md-8 mb-2 mb-md-0">
 							<div class="pl-3" style="border-left: 3px solid blue;">
 								<h2 class="mb-0 text-primary">Liste des séances</h2>
 							</div>
 						</div>
-						<div class="col-4 d-none d-md-block text-right">
+						<div class="col-12 col-md-4 text-left text-md-right">
 							<a href="#" class="btn btn-sm btn-outline-default shadow-none new_session" data-toggle="modal" data-target="#newSeanceModal">
 								<i class="fa fa-user-plus mr-2"></i>Nouvelle séance
 							</a>
@@ -61,12 +61,12 @@
 
 				<div class="tab-pane fade pt-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 					<div class="row mb-3">
-						<div class="col-8">
+						<div class="col-12 col-md-8 mb-2 mb-md-0">
 							<div class="pl-3" style="border-left: 3px solid blue;">
 								<h2 class="mb-0 text-primary">Membres adhérants</h2>
 							</div>
 						</div>
-						<div class="col-4 d-none d-md-block text-right">
+						<div class="col-12 col-md-4 text-left text-md-right">
 							<a href="#" class="btn btn-sm btn-outline-default shadow-none new_session" data-toggle="modal" data-target="#addMembersModal">
 								<i class="fa fa-user-plus mr-2"></i>Ajouter membre
 							</a>

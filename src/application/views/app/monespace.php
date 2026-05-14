@@ -10,15 +10,16 @@
           <h2 class="text-muted text-center my-3">Fonds de caisses</h2>
           <?php if ($user['role'] == 'administrateur') : ?>
             <!-- Card stats -->
-            <div class="d-flex justify-content-between">
+            <div class="row">
               <?php foreach ($caisses as $caisse) : ?>
                 <?php
                 $this->db->select_sum('member_sold');
                 $this->db->where('caisse_id', $caisse['id']);
                 $sold = $this->db->get('caissesolds')->row()->member_sold;
                 ?>
-                <div class="card card-stats w-100 mr-2">
-                  <!-- Card body -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                  <div class="card card-stats h-100 w-100">
+                    <!-- Card body -->
                   <div class="card-body text-center">
                     <div class="row">
                       <div class="col">
@@ -29,6 +30,7 @@
                     <p class="mb-0 text-sm">
                       <span class="text-muted mr-2">Au total</span>
                     </p>
+                  </div>
                   </div>
                 </div>
               <?php endforeach; ?>
